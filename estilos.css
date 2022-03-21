@@ -98,7 +98,7 @@ header {
     position: relative;
     margin-top: 80px;
     margin-bottom: 50px;
-    background-image: url(FOTOS/gradiente.jpg);
+    background-image: url(fotos/gradiente.jpg);
     background-position: center;
     background-size: cover;
 
@@ -224,3 +224,194 @@ footer {
    background-color:hsl(0, 0%, 79%);
    text-align: center;
 }
+
+/*SERIES.HTML*/
+
+.container-cover-series {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-image: url(fotos/gradiente.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-info-cover-series {
+    max-width: 800px;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.container-info-cover-series h1 {
+    color: white;
+    font-size: 60px;
+    font-family:'Euphoria Script', cursive;
+    bottom: 50px;
+}
+
+.container-info-cover-series p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.blockquote-series {
+    margin: 60px;
+    text-align: center;
+    
+}
+
+.blockquote-series p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blockquote-series b {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.table-container {
+    margin: 100px;
+}
+.table {
+    background-color:#505050;
+    color: aliceblue;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+     
+}
+
+.table th, td {
+    padding: 10px;
+}
+
+.table th {
+    background-color: #003B71;
+    border-bottom: solid 5px #198af3;
+    color: #fff;
+    font-family:'Poppins', sans-serif; 
+    font-size: 20px;
+}
+
+
+.table tr:nth-child(even) {
+    background-color: #838383;
+}
+
+.table tr:hover td {
+    background-color: #4b9be6;
+    color: #fff;
+    transition-delay: 0.1s;
+}
+.container-cover-ft {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url("https://k-gen.fr/wp-content/uploads/2021/03/crash-landing-on-you.jpg");
+    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-info-cover-ft {
+    max-width: 800px;
+    margin: auto;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    z-index: 1;
+}
+
+.container-info-cover-ft::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #29024981;
+    position: absolute;
+    top: 0px;
+    bottom: unset;
+}
+
+.container-info-cover-ft h1 {
+    color: white;
+    font-size: 100px;
+    font-family:'Euphoria Script', cursive;
+    bottom: 50px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.blockquote-ficha-tecnica {
+    margin: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+
+.blockquote-ficha-tecnica h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blockquote-ficha-tecnica p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-table-ficha-tecnica {
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+
+}
+.table-ft {
+    background-color:#505050;
+    color: aliceblue;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+     
+}
+
+.table-ft th, td {
+    padding: 10px;
+}
+
+.table-ft th {
+    background-color: #003B71;
+    border-bottom: solid 5px #198af3;
+    color: #fff;
+    font-family:'Poppins', sans-serif; 
+    font-size: 20px;
+}
+
+.video-ficha-tecnica {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+}
+
