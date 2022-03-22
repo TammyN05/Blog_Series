@@ -6,6 +6,7 @@
 /*INDEX*/
 /*HEADER Y MENU*/
 
+
 header {
     position: absolute;
     top: 0;
@@ -60,7 +61,8 @@ header {
 }
 
 .menu a:hover {
-    background-color: rgb(151, 121, 248);
+    background-color: #d90f3e;
+    font-weight: 1000;
     color: #000;
     transition: all 0.2s ease-out;
 }
@@ -132,7 +134,7 @@ header {
 /*CONTENIDO DEL BLOG*/
 
 body {
-    background-color:hsl(0, 0%, 91%);
+    background-color:hsl(0, 0%, 89%);
 }
 
 .container-content {
@@ -360,10 +362,20 @@ footer {
     justify-content: center;
 }
 
+.main-columns-container {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    
+
+}
+
+
 .blockquote-ficha-tecnica {
-    margin: 60px;
+    margin: 20px 50px;
     margin-bottom: 0px;
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -380,13 +392,24 @@ footer {
     font-weight: 400;
 }
 
-.container-table-ficha-tecnica {
+
+.container-list p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
     margin-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
 
 }
+
+.container-list dt {
+    width: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 .table-ft {
     background-color:#505050;
     color: aliceblue;
